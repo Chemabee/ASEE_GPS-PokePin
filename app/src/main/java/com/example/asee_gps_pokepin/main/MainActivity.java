@@ -1,8 +1,11 @@
-package com.example.asee_gps_pokepin;
+package com.example.asee_gps_pokepin.main;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+
+import com.example.asee_gps_pokepin.R;
 
 public class MainActivity extends AppCompatActivity {
 
