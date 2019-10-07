@@ -12,7 +12,7 @@
         android:layout_height="90dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/charizard-temp"
+        app:srcCompat="@drawable/charizard_temp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView

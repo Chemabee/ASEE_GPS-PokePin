@@ -4,23 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main.MainActivity">
+    tools:context=".Main.MainActivity"
+    android:background="@drawable/background_pokedex"
+
+
+    >
 
     <Button
-        android:id="@+id/open_pokedex"
-        style="@android:style/Widget.Material.Button.Colored"
+        android:id="@+id/main_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"
-        android:layout_marginTop="128dp"
-        android:background="#000000"
-        android:backgroundTint="#DDFF0000"
-        android:backgroundTintMode="src_in"
-        android:stateListAnimator="@android:anim/fade_in"
-        android:text="@string/pokedex"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:typeface="sans"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="292dp"
+        android:text="@string/login"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="143dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_marginTop="154dp"
+        android:gravity="center"
+        android:text="@string/guest"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        tools:layout_editor_absoluteX="112dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/signin"
+        app:layout_constraintTop_toBottomOf="@+id/main_button2"
+        tools:layout_editor_absoluteX="126dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

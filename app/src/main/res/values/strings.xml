@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ASEE_GPS-PokePin</string>
     <string name="pokedex">Pokedex</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="signin">Registrarse</string>
+    <string name="guest">Iniciar como Invitado</string>
 </resources>
