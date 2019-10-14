@@ -1,7 +1,20 @@
 <resources>
-    <string name="app_name">ASEE_GPS-PokePin</string>
+    <string name="app_name">PokePin</string>
     <string name="pokedex">Pokedex</string>
     <string name="login">Iniciar Sesión</string>
     <string name="signin">Registrarse</string>
     <string name="guest">Iniciar como Invitado</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_pokedex">Pokedex</string>
+    <string name="menu_search">Buscar Pokemon</string>
+    <string name="menu_favorites">Pokemon Favoritos</string>
+    <string name="menu_settings">Ajusts</string>
+    <string name="menu_about_us">Acerca de</string>
 </resources>

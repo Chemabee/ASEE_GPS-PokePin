@@ -1,4 +1,4 @@
-package com.example.asee_gps_pokepin.main;
+package com.example.asee_gps_pokepin.Main;
 
 import android.os.Bundle;
 
